@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgba(78,192,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,143,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,143,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,143,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#378fd9', GradientType=1 );
+}
+
+.conteiner{
+    font-family: 'Ubuntu', sans-serif;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.frame{
+    width: 560px;
+    color: #fff;
+}
+
+.frame p {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 45px;
+}
+
+.frame h1 {
+    padding-top: 150px;
+    letter-spacing: 1px;
+    padding-bottom: 45px;
+}
+
+span {
+    font-size: 59px;
+}
+
+.logo {
+    padding-top: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.btn {
+    padding: 15px;
+    width: 222px;
+    background: #ffd429;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn:hover {
+    background: #ffbb00;
+}
+
+.title_mine{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  
+}
+
+
+.wrapper_mine {
+    background: url(/wayup_lesson_two/img/ico1.png) no-repeat center top;
+    width: 320px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+
+}
+
+.wrapper_mine h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+    font-size: 19px;
+}
+
+.wrapper_mine p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15;
+    font-weight: 100;
+}
+
+.general_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_mine_1 {
+    background: url(/wayup_lesson_two/img/ico2.png) no-repeat center top;
+    width: 320px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.wrapper_mine_1 h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+    font-size: 19px;
+}
+
+.wrapper_mine_1 p {
+    font-size: 15;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper_mine_2 {
+    background: url(/wayup_lesson_two/img/ico3.png) no-repeat center top;
+    width: 320px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.wrapper_mine_2 h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+    font-size: 19px;
+}
+
+.wrapper_mine_2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15;
+    font-weight: 100;
+}
+
+.title_form {
+    padding-top: 110px;
+    text-align: center;
+    
+}
+
+input {
+    width: 350px;
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 18px;
+    padding-left: 10px;
+}   
+.form {
+    background: #ecf2f8 ;
+}
+
+
+.form_name {
+    margin-top: 60px;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn {
+    border: 0;
+    width: 350px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 100px  ;
+ 
+}
+
+footer{
+    background: #164d7a;
+}
+.p_footer {
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 40px;
+    font-size: 14px;
+
+}
