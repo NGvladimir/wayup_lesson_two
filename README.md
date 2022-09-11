@@ -1,1 +1,1 @@
-# wayup_lesson_two
+# https://ngvladimir.github.io/wayup_lesson_two/
